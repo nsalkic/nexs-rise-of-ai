@@ -56,8 +56,6 @@
     <header class="topbar" data-slot="header-factory">
       <div class="brand"><span class="nex">Ne<em>X</em>S</span><span class="rise">Rise of AI</span></div>
       <div class="title-row">
-        <button type="button" class="back" data-go="${n===`factory`?`menu`:`factory`}">&lt; ${n===`factory`?`Main Menu`:`Back`}</button>
-        <i class="vdiv"></i>
         <h1>${n===`factory`?`FACTORY`:n===`buildings`?`BUILDINGS`:n===`shipyard`?`SHIPYARD`:n===`weapons`?`WEAPONS`:`ROBOTICS`}</h1>
         <button type="button" class="snd" data-act="sound">SND</button>
       </div>
@@ -154,7 +152,6 @@
       ${En(`banner-missions`,`missions`,`MISSIONS`,`Choose units, issue orders, and command the fight live from your fleet command center`,!0)}
       ${En(`banner-research`,`research`,`RESEARCH`,`Unlock new machines and longer expeditions.`)}
     </div>
-    ${Tn(`menu`)}
   </div>`,Z(t),Dn(e,t),kn(t)}function Nn(e,t){return t.innerHTML=`<div class="screen menu-screen">
     ${Sn(`FACTORY`,`Main Menu`,`menu`,`header-factory`)}
     <div class="banner-stack">
